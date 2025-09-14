@@ -1,78 +1,78 @@
 export const SITE = {
-    website: "https://simple-portfolio.vicbox.dev", // replace this with your deployed domain
+    website: "https://github.com/maycoRosales/maycorosales.github.io", // replace this with your deployed domain
     title: "Simple Portfolio",
-    description: "A simple but beautiful portfolio created with Astro",
+    description: "Un portafolio sencillo pero hermoso creado con Astro y Tailwind CSS.",
     tags: ["portfolio", "Resume cv", "Astro"],
     ogImage: "/og-image.webp",
     logo: "logo",
     logoText: "Portfolio",
-    lang: "en",
+    lang: "es",
     favicon: "/favicon.png",
-    repository: "https://github.com/vito8916/simple-portfolio.git",
-    author: "Victor Alvarado",
-    profile: "https://victoralvarado.dev/",
+    repository: "https://github.com/maycoRosales/maycorosales.github.io.git",
+    author: "Mayco Rosales",
+    profile: "https://mrosales.dev/",
 }
 
 export const ME = {
-    name: "VicBox Dot Dev",
-    profession: "Software Engineer | Full Stack Developer",
-    profileImage: "pp2.png",
+    name: "Mayco Rosales",
+    profession: "Desarrollador Full Stack",
+    profileImage: "200.jpg",
     profileFacts: [
         {
-            value: 10,
-            description: "Years of Experience"
-        },
-        {
             value: 5,
-            description: "Completed Projects"
+            description: "Años de Experiencia"
         },
         {
-            value: 4,
-            description: "Satisfied Clients"
+            value: 3,
+            description: "Proyectos Completados"
+        },
+        {
+            value: 0,
+            description: "Clientes Satisfechos"
         }
     ],
     contactInfo: {
-        email: "vicbox.dev@vicbox.dev",
-        linkedin: "https://www.linkedin.com/in/victor-alvaradohn",
+        email: "maycor@gmail.com",
+        linkedin: "https://www.linkedin.com/in/mayco-damian-rosales-1a9933148",
         resumeDoc: "resume.pdf",
     },
-    aboutMe: "I am a software engineer with a passion for web development. I have experience in building web " + "applications using modern technologies. I am a self-taught developer who enjoys learning new things and " + "sharing knowledge with others.",
+    aboutMe: "Soy Desarrollador Web FullStack y me apasiona. Tengo experiencia en la creación de aplicaciones web " + "con tecnologías modernas. Soy un desarrollador autodidacta que disfruta aprendiendo cosas nuevas " + "y compartiendo conocimientos con los demás.",
 }
 
 export const SOCIALS = [
     {
         name: "Twitter",
-        url: "https://twitter.com/vicbox.dev",
+        url: "https://twitter.com/",
         icon: "twitter-x-fill",
         show: true
     },
     {
         name: "Facebook",
-        url: "https://www.facebook.com/vicbox.dev",
+        url: "https://www.facebook.com/",
         icon: "facebook-fill",
         show: false
     },
     {
         name: "Instagram",
-        url: "https://www.instagram.com/vicbox.dev",
+        url: "https://www.instagram.com/",
         icon: "instagram-fill",
         show: true
     },
     {
         name: "Youtube",
-        url: "https://www.youtube.com/vicbox.dev",
+        url: "https://www.youtube.com/",
         icon: "youtube-fill",
-        show: true
+        show: false
     },
     {
         name: "TikTok",
-        url: "https://tiktok.com/vicbox.dev",
+        url: "https://tiktok.com/",
         icon: "tik-fill",
         show: false
     },
     {
         name: "GitHub",
-        url: "https://github.com/vicbox.dev",
+        url: "https://github.com/maycoRosales",
         icon: "github-fill",
         show: true
     }
