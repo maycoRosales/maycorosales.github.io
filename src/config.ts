@@ -1,11 +1,11 @@
 export const SITE = {
     website: "https://github.com/maycoRosales/maycorosales.github.io", // replace this with your deployed domain
-    title: "Simple Portfolio",
+    title: "Simple Porfolio",
     description: "Un portafolio sencillo pero hermoso creado con Astro y Tailwind CSS.",
     tags: ["portfolio", "Resume cv", "Astro"],
     ogImage: "/og-image.webp",
     logo: "logo",
-    logoText: "Portfolio",
+    logoText: "MRosales",
     lang: "es",
     favicon: "/favicon.png",
     repository: "https://github.com/maycoRosales/maycorosales.github.io.git",
@@ -48,13 +48,13 @@ export const SOCIALS = [
     },
     {
         name: "Facebook",
-        url: "https://www.facebook.com/",
+        url: "https://www.facebook.com/mayco.rosales2",
         icon: "facebook-fill",
-        show: false
+        show: true
     },
     {
         name: "Instagram",
-        url: "https://www.instagram.com/",
+        url: "https://www.instagram.com/mayco_rosales",
         icon: "instagram-fill",
         show: true
     },
