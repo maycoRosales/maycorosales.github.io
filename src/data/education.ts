@@ -19,7 +19,7 @@ const  education: Education[] = [
         currentUni: false,
     },
     {
-        title: "Programacion web Full Stack",
+        title: "Programación web Full Stack",
         startDate: "2021-03-01",
         endDate: "2021-09-30",
         school: "Egg Academy",
@@ -28,12 +28,12 @@ const  education: Education[] = [
         currentUni: false,
     },
     {
-        title: "Programacion como autodidacta",
+        title: "Programación como autodidacta",
         startDate: "2020-09-01",
         endDate: "",
         school: "Youtube, Udemy, FreeCodeCamp",
         location: "Argentina",
-        description: "Cursos y proyectos personales y de estudio que enrriquesen mis conocimientos en programación.",
+        description: "Cursos y proyectos personales y de estudio que enriquecen mis conocimientos en programación.",
         currentUni: true,
     },
 ];

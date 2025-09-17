@@ -26,11 +26,6 @@ interface WorkExperience {
 /**
  * Represents an array of work experiences.
  *
- * Each work experience object contains details about
- * a job position including the title, start and end dates,
- * company name, job location, description of the role,
- * a list of goals or achievements, and a flag indicating
- * if it is the current job.
  *
  * @type {Array<Object>}
  * @property {string} title - The job title.
@@ -50,9 +45,9 @@ const workExperience:WorkExperience[] = [
         location: "Cordoba, Argentina",
         description: "Auxiliar de mesa de ayuda",
         goals: [
-            "Desempeño tareas operativas correspondientes al area de sistemas de la empresa.",
+            "Desempeño tareas operativas correspondientes al área de sistemas.",
             "Brindo soporte técnico a los usuarios de la empresa.",
-            "Realizo mantenimoientos de hardware y software en las computadoras de la empresa.",
+            "Realizo mantenimientos de hardware y software en computadoras y equipos.",
         ],
         currentJob: true,
     },
@@ -62,11 +57,11 @@ const workExperience:WorkExperience[] = [
         endDate: "2022-06-01",
         company: "Dinosaurio SA",
         location: "Cordoba, Argentina",
-        description: "Developed and maintained web applications using React, NodeJs, and MongoDB.",
+        description: "Repositor en supermercado",
         goals: [
-            "Realize tareas de reposición en el sector de almacén.",
-            "manejo de montacargas.",
-            "trabajo en equipo.",
+            "Realicé tareas de reposición en el sector de almacén.",
+            "Auditoría de stock y manejo de montacargas",
+            "Trabajo en equipo.",
         ],
         currentJob: false,
     },
